@@ -1,0 +1,122 @@
+[
+  {
+    "model": "library.book",
+    "fields": {
+      "title": "Cien años de soledad",
+      "author": "Gabriel García Márquez",
+      "isbn": "9780307474728",
+      "category": "Realismo mágico",
+      "publication_date": "1967-05-30",
+      "total_copies": 5,
+      "available_copies": 3
+    }
+  },
+  {
+    "model": "library.book",
+    "fields": {
+      "title": "1984",
+      "author": "George Orwell",
+      "isbn": "9780451524935",
+      "category": "Ciencia ficción",
+      "publication_date": "1949-06-08",
+      "total_copies": 4,
+      "available_copies": 2
+    }
+  },
+  {
+    "model": "library.book",
+    "fields": {
+      "title": "El Principito",
+      "author": "Antoine de Saint-Exupéry",
+      "isbn": "9780156012195",
+      "category": "Literatura infantil",
+      "publication_date": "1943-04-06",
+      "total_copies": 6,
+      "available_copies": 4
+    }
+  },
+  {
+    "model": "library.book",
+    "fields": {
+      "title": "Don Quijote de la Mancha",
+      "author": "Miguel de Cervantes",
+      "isbn": "9788467028240",
+      "category": "Clásico",
+      "publication_date": "1605-01-16",
+      "total_copies": 3,
+      "available_copies": 1
+    }
+  },
+  {
+    "model": "library.book",
+    "fields": {
+      "title": "Harry Potter y la piedra filosofal",
+      "author": "J.K. Rowling",
+      "isbn": "9788478884452",
+      "category": "Fantasía",
+      "publication_date": "1997-06-26",
+      "total_copies": 7,
+      "available_copies": 5
+    }
+  },
+  {
+    "model": "library.book",
+    "fields": {
+      "title": "Orgullo y prejuicio",
+      "author": "Jane Austen",
+      "isbn": "9780141439518",
+      "category": "Romance",
+      "publication_date": "1813-01-28",
+      "total_copies": 4,
+      "available_copies": 3
+    }
+  },
+  {
+    "model": "library.book",
+    "fields": {
+      "title": "Crónica de una muerte anunciada",
+      "author": "Gabriel García Márquez",
+      "isbn": "9780307474865",
+      "category": "Novela",
+      "publication_date": "1981-01-01",
+      "total_copies": 3,
+      "available_copies": 2
+    }
+  },
+  {
+    "model": "library.book",
+    "fields": {
+      "title": "El señor de los anillos",
+      "author": "J.R.R. Tolkien",
+      "isbn": "9788445000664",
+      "category": "Fantasía épica",
+      "publication_date": "1954-07-29",
+      "total_copies": 5,
+      "available_copies": 2
+    }
+  },
+  {
+    "model": "library.book",
+    "fields": {
+      "title": "Rayuela",
+      "author": "Julio Cortázar",
+      "isbn": "9788437604572",
+      "category": "Literatura experimental",
+      "publication_date": "1963-06-28",
+      "total_copies": 3,
+      "available_copies": 1
+    }
+  },
+  {
+    "model": "library.book",
+    "fields": {
+      "title": "La sombra del viento",
+      "author": "Carlos Ruiz Zafón",
+      "isbn": "9788408079545",
+      "category": "Misterio",
+      "publication_date": "2001-01-01",
+      "total_copies": 6,
+      "available_copies": 4
+    }
+  }
+]

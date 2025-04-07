@@ -1,0 +1,17 @@
+{% extends 'library/base.html' %}
+
+{% block content %}
+<div class="container mt-4">
+    <h2>Añadir Nuevo Libro</h2>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit" class="btn btn-primary">
+            <i class="fas fa-plus"></i> Guardar Libro
+        </button>
+        <a href="{% url 'book_list' %}" class="btn btn-secondary">
+            <i class="fas fa-times"></i> Cancelar
+        </a>
+    </form>
+</div>
+{% endblock %}

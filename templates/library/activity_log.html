@@ -1,0 +1,17 @@
+{% extends 'library/base.html' %}
+
+{% block content %}
+<h1>Mi Historial de Actividades</h1>
+<div class="list-group">
+    {% for activity in activities %}
+    <div class="list-group-item">
+        <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1">{{ activity.action }}</h5>
+            <small>{{ activity.timestamp|date:"d/m/Y H:i" }}</small>
+        </div>
+    </div>
+    {% empty %}
+    <div class="alert alert-info">No hay actividades registradas</div>
+    {% endfor %}
+</div>
+{% endblock %}
